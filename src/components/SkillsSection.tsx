@@ -3,10 +3,10 @@ import { Code } from "lucide-react";
 
 const SkillsSection = () => {
   const skills = {
-    languages: ["JavaScript", "TypeScript", "Python", "Java", "C++", "HTML", "CSS"],
-    frameworks: ["React.js", "Node.js", "Express.js", "Next.js", "Bootstrap", "Tailwind CSS"],
-    tools: ["Git", "GitHub", "VS Code", "MongoDB", "MySQL", "Firebase", "Redux", "REST API", "Postman"],
-    concepts: ["Data Structures", "Algorithms", "OOPS", "DBMS", "Operating Systems", "Computer Networks"]
+    languages: ["Python", "Node.js", "R", "C++", "Java"],
+    frameworks: ["HTML", "CSS", "Flask"],
+    tools: ["MySQL", "Power BI", "MS-Excel", "Tableau", "Git", "GitHub", "VS Code"],
+    concepts: ["Leadership", "Project Management", "Adaptability", "Time Management"]
   };
 
   return (
@@ -60,11 +60,11 @@ const SkillsSection = () => {
             </div>
           </div>
           
-          {/* Concepts */}
+          {/* Soft Skills */}
           <div className="bg-secondary rounded-lg p-6 transition-transform hover:translate-y-[-5px]">
             <div className="flex items-center gap-2 mb-4">
               <Code size={20} className="text-accent" />
-              <h3 className="text-xl font-semibold">Concepts</h3>
+              <h3 className="text-xl font-semibold">Soft Skills</h3>
             </div>
             <div className="flex flex-wrap gap-2">
               {skills.concepts.map((skill) => (

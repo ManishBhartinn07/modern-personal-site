@@ -12,20 +12,20 @@ const HeroSection = () => {
             Hi, I'm <span className="text-accent">Manish Bharti</span>
           </h1>
           <p className="text-xl md:text-2xl text-muted-foreground animate-fade-in-slow" style={{ animationDelay: "0.2s" }}>
-            Software Developer
+            Python Developer
           </p>
           <p className="text-muted-foreground max-w-md animate-fade-in-slow" style={{ animationDelay: "0.4s" }}>
-            Final year B.Tech CSE student at Chandigarh University with a passion for 
-            software development, competitive programming, and innovative solutions.
+            Final year B.Tech CSE student at Chandigarh University with expertise in Python development,
+            data processing, and building scalable web applications.
           </p>
           <div className="flex space-x-4 animate-fade-in-slow" style={{ animationDelay: "0.6s" }}>
             <a href="https://github.com/ManishBhartinn07" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-accent transition-colors">
               <Github size={24} />
             </a>
-            <a href="https://linkedin.com/in/manish-bharti-7b7b2b1b9" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-accent transition-colors">
+            <a href="https://www.linkedin.com/in/manish-bharti07/" target="_blank" rel="noopener noreferrer" className="text-primary hover:text-accent transition-colors">
               <Linkedin size={24} />
             </a>
-            <a href="mailto:manishbharti07@gmail.com" className="text-primary hover:text-accent transition-colors">
+            <a href="mailto:manishpathik07@gmail.com" className="text-primary hover:text-accent transition-colors">
               <Mail size={24} />
             </a>
           </div>
@@ -36,7 +36,7 @@ const HeroSection = () => {
               </a>
             </Button>
             <Button variant="outline" className="gap-2" asChild>
-              <a href="/resume.pdf" download>
+              <a href="https://drive.google.com/file/d/1kn6jgUSnWzlqi7mA997WaYFjg3aXYIT3/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                 Download CV <Download size={16} />
               </a>
             </Button>
