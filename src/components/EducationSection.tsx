@@ -13,24 +13,24 @@ const EducationSection = () => {
   const education: Education[] = [
     {
       degree: "B.Tech in Computer Science & Engineering",
-      institution: "Chandigarh University",
+      institution: "Bachelor of Technology in Computer Science",
       location: "Punjab, India",
-      duration: "2020 - 2024",
-      score: "CGPA: 8.5/10"
+      duration: "2022 - Present",
+      score: "CGPA: 7.4"
     },
     {
-      degree: "Higher Secondary Education (XII)",
-      institution: "Delhi Public School",
-      location: "Delhi, India",
+      degree: "Intermediate (XII)",
+      institution: "M.S.C Sn. Sec. School Sujanpur Tira",
+      location: "Sujanpur Tira, H.P",
+      duration: "2021 - 2022",
+      score: "Percentage: 92.4%"
+    },
+    {
+      degree: "Matriculation (X)",
+      institution: "M.S.C Sn. Sec. School Sujanpur Tira",
+      location: "Sujanpur Tira, H.P",
       duration: "2019 - 2020",
-      score: "Percentage: 92%"
-    },
-    {
-      degree: "Secondary Education (X)",
-      institution: "Delhi Public School",
-      location: "Delhi, India",
-      duration: "2017 - 2018",
-      score: "Percentage: 94%"
+      score: "Percentage: 88%"
     }
   ];
 

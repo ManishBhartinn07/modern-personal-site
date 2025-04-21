@@ -1,4 +1,3 @@
-
 import { Code, Star } from "lucide-react";
 
 interface Competition {
@@ -11,28 +10,22 @@ interface Competition {
 const CompetitiveSection = () => {
   const competitions: Competition[] = [
     {
-      title: "CodeJam 2023",
-      platform: "Google",
-      achievement: "Global Rank: 5000+",
-      date: "April 2023"
+      title: "HackerRank Achievement",
+      platform: "HackerRank",
+      achievement: "5-Star Coder (Python)",
+      date: "April 2025"
     },
     {
-      title: "Hackathon",
-      platform: "Microsoft",
-      achievement: "2nd Runner Up",
-      date: "July 2023"
+      title: "GeeksforGeeks",
+      platform: "GFG",
+      achievement: "Solved 500+ questions",
+      date: "June - April 2025"
     },
     {
-      title: "Competitive Programming Contest",
-      platform: "CodeChef",
-      achievement: "4★ Coder (Rating: 1829)",
-      date: "2022-Present"
-    },
-    {
-      title: "Leetcode Weekly Contests",
-      platform: "Leetcode",
-      achievement: "Solved 300+ problems",
-      date: "2021-Present"
+      title: "LeetCode",
+      platform: "LeetCode",
+      achievement: "Solved 100+ problems",
+      date: "January - April 2025"
     }
   ];
 

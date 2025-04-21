@@ -1,4 +1,3 @@
-
 import { Briefcase } from "lucide-react";
 
 interface Experience {
@@ -12,27 +11,14 @@ interface Experience {
 const ExperienceSection = () => {
   const experiences: Experience[] = [
     {
-      title: "Software Developer Intern",
-      company: "ABC Tech Solutions",
+      title: "Python Developer Intern",
+      company: "Placify Technology",
       location: "Remote",
-      duration: "May 2023 - July 2023",
+      duration: "August 2024 - October 2024",
       description: [
-        "Developed and maintained front-end components using React.js for an e-commerce platform",
-        "Collaborated with a team of 5 developers to implement new features and resolve bugs",
-        "Integrated RESTful APIs for seamless data exchange between front-end and back-end",
-        "Participated in daily stand-ups and sprint planning to ensure timely delivery of features"
-      ]
-    },
-    {
-      title: "Web Development Intern",
-      company: "XYZ Digital Services",
-      location: "Chandigarh",
-      duration: "December 2022 - February 2023",
-      description: [
-        "Created responsive web interfaces using HTML, CSS, and JavaScript",
-        "Implemented mobile-first design principles for better user experience across devices",
-        "Assisted senior developers in database design and API integration",
-        "Received recognition for contributing to project delivery ahead of schedule"
+        "Developed Python-based solutions for data processing, automation, and web development",
+        "Worked with frameworks like Flask and Django, and integrated APIs",
+        "Focused on optimizing code performance, building scalable applications, and utilizing data structures"
       ]
     }
   ];
