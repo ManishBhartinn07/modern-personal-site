@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Download, Github, Linkedin, Mail } from "lucide-react";
 
@@ -47,13 +46,10 @@ const HeroSection = () => {
         <div className="relative md:order-2 order-1 animate-fade-in-slow">
           <div className="aspect-square bg-secondary rounded-full overflow-hidden">
             <img 
-              src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158" 
+              src="/lovable-uploads/036da483-87f4-476c-957f-c9f4d2f280fc.png" 
               alt="Manish Bharti" 
               className="w-full h-full object-cover"
             />
-          </div>
-          <div className="absolute -bottom-4 -right-4 bg-accent text-white px-4 py-2 rounded">
-            <p className="font-semibold">Let's Build Something Amazing</p>
           </div>
         </div>
       </div>
