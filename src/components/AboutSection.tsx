@@ -21,7 +21,7 @@ const AboutSection = () => {
                 <div className="flex justify-center items-center mb-2">
                   <User size={20} className="text-accent" />
                 </div>
-                <p className="text-center text-sm font-medium">Related to Python Development</p>
+                <p className="text-center text-sm font-medium">Development enthusiast</p>
               </div>
             </div>
           </div>
