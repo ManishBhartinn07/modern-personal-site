@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -74,8 +73,8 @@ const ContactSection = () => {
                 </div>
                 <div>
                   <h4 className="text-sm text-muted-foreground">Phone</h4>
-                  <a href="tel:+914187640784" className="text-lg font-medium hover:text-accent transition-colors">
-                    +91 4187 640 784
+                  <a href="tel:+919418764074" className="text-lg font-medium hover:text-accent transition-colors">
+                    +91 9418 764 074
                   </a>
                 </div>
               </div>

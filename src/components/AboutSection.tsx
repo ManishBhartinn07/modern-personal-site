@@ -21,7 +21,7 @@ const AboutSection = () => {
                 <div className="flex justify-center items-center mb-2">
                   <User size={20} className="text-accent" />
                 </div>
-                <p className="text-center text-sm font-medium">Software Developer with MERN Stack Expertise</p>
+                <p className="text-center text-sm font-medium">Related to Python Development</p>
               </div>
             </div>
           </div>
@@ -31,7 +31,7 @@ const AboutSection = () => {
             <h2 className="section-title">About Me</h2>
             <div className="space-y-4 text-muted-foreground">
               <p>
-                I'm Manish Bharti, a final year B.Tech student at LPU University specializing in Computer Science & Engineering. I'm passionate about Python development, with expertise in data processing and building scalable web applications.
+                I'm Manish Bharti, a prefinal year B.Tech student at LPU University specializing in Computer Science & Engineering. I'm passionate about Python development, with expertise in data processing and building scalable web applications.
               </p>
               <p>
                 Throughout my academic journey, I've developed strong skills in Python programming, data structures, and web development frameworks like Flask. I've applied these skills in various projects and during my internship at Placify Technology, where I contributed to real-world applications.
