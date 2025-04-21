@@ -6,33 +6,31 @@ interface Certification {
   issuer: string;
   date: string;
   description: string;
+  link: string;
 }
 
 const CertificationsSection = () => {
   const certifications: Certification[] = [
     {
-      title: "React.js Development",
-      issuer: "Udemy",
-      date: "2023",
-      description: "Comprehensive certification covering advanced React concepts, state management, and modern frontend development practices."
+      title: "Programming, Data Structures and Algorithms using Python",
+      issuer: "NPTEL",
+      date: "2024",
+      description: "Comprehensive certification in Python programming fundamentals, data structures implementation, and algorithm design.",
+      link: "https://archive.nptel.ac.in/noc/Ecertificate/?q=NPTEL24CS94S45690081804128271"
     },
     {
-      title: "Web Development Bootcamp",
+      title: "HTML, CSS, and Javascript for Web Developers",
       issuer: "Coursera",
-      date: "2022",
-      description: "Full-stack web development course covering HTML, CSS, JavaScript, Node.js, and database integration."
+      date: "2024",
+      description: "In-depth course covering front-end web development fundamentals and responsive design principles.",
+      link: "https://www.coursera.org/account/accomplishments/verify/BJQ8MKDZF93V"
     },
     {
-      title: "Data Structures and Algorithms",
-      issuer: "GeeksforGeeks",
-      date: "2022",
-      description: "In-depth course on implementing and optimizing data structures and algorithms for efficient problem-solving."
-    },
-    {
-      title: "Machine Learning Fundamentals",
-      issuer: "Stanford University (Coursera)",
+      title: "Python Programming Essentials",
+      issuer: "Coursera",
       date: "2023",
-      description: "Introduction to machine learning concepts, algorithms, and practical applications in data analysis."
+      description: "Comprehensive course on Python programming fundamentals, best practices, and practical applications.",
+      link: "https://www.coursera.org/account/accomplishments/verify/BJQ8MKDZF93V"
     }
   ];
 
@@ -43,7 +41,13 @@ const CertificationsSection = () => {
         
         <div className="mt-10 grid grid-cols-1 md:grid-cols-2 gap-6">
           {certifications.map((cert, index) => (
-            <div key={index} className="bg-secondary rounded-lg p-6 flex gap-4">
+            <a 
+              href={cert.link}
+              target="_blank"
+              rel="noopener noreferrer"
+              key={index} 
+              className="bg-secondary rounded-lg p-6 flex gap-4 transition-transform hover:scale-[1.02]"
+            >
               <div className="mt-1">
                 <div className="w-10 h-10 rounded-full bg-accent/10 flex items-center justify-center">
                   <Award size={20} className="text-accent" />
@@ -60,7 +64,7 @@ const CertificationsSection = () => {
                   {cert.description}
                 </p>
               </div>
-            </div>
+            </a>
           ))}
         </div>
       </div>
