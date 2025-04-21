@@ -13,7 +13,7 @@ const EducationSection = () => {
   const education: Education[] = [
     {
       degree: "B.Tech in Computer Science & Engineering",
-      institution: "Bachelor of Technology in Computer Science",
+      institution: "LPU University",
       location: "Punjab, India",
       duration: "2022 - Present",
       score: "CGPA: 7.4"

@@ -15,7 +15,7 @@ const HeroSection = () => {
             Python Developer
           </p>
           <p className="text-muted-foreground max-w-md animate-fade-in-slow" style={{ animationDelay: "0.4s" }}>
-            Final year B.Tech CSE student at Chandigarh University with expertise in Python development,
+            Final year B.Tech CSE student at LPU University with expertise in Python development,
             data processing, and building scalable web applications.
           </p>
           <div className="flex space-x-4 animate-fade-in-slow" style={{ animationDelay: "0.6s" }}>

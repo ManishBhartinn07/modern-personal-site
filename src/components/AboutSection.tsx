@@ -31,13 +31,13 @@ const AboutSection = () => {
             <h2 className="section-title">About Me</h2>
             <div className="space-y-4 text-muted-foreground">
               <p>
-                I'm Manish Bharti, a final year B.Tech student at Chandigarh University specializing in Computer Science & Engineering. I'm passionate about software development, with a focus on creating efficient, user-friendly applications using the MERN stack.
+                I'm Manish Bharti, a final year B.Tech student at LPU University specializing in Computer Science & Engineering. I'm passionate about Python development, with expertise in data processing and building scalable web applications.
               </p>
               <p>
-                Throughout my academic journey, I've developed a strong foundation in data structures, algorithms, and software engineering principles. I've applied these skills in various projects and internships, where I've contributed to real-world applications and learned to work effectively in team environments.
+                Throughout my academic journey, I've developed strong skills in Python programming, data structures, and web development frameworks like Flask. I've applied these skills in various projects and during my internship at Placify Technology, where I contributed to real-world applications.
               </p>
               <p>
-                My goal is to leverage my technical skills and creativity to build innovative solutions that make a positive impact. I'm constantly learning and exploring new technologies to stay at the forefront of this rapidly evolving field.
+                My goal is to leverage my Python development skills and competitive programming experience to create efficient, innovative solutions that make a positive impact. I'm constantly learning and expanding my expertise in tools like Power BI, MySQL, and other technologies.
               </p>
             </div>
             <div className="mt-6">
