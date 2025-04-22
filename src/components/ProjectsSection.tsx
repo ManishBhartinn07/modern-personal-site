@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { Github, Link, Folder } from "lucide-react";
 
@@ -25,7 +24,7 @@ const ProjectsSection = () => {
       description: "An intuitive tax calculation platform that helps users estimate their tax liability based on income, deductions, and applicable tax laws.",
       technologies: ["Flask", "Python", "HTML", "CSS", "JavaScript", "Jinja2"],
       githubLink: "https://github.com/ManishBhartinn07/Tax-Calculation-website",
-      image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6"
+      image: "/lovable-uploads/c107a305-7d07-4c45-928d-714394566c5a.png"
     },
     {
       title: "Translating Application",
