@@ -16,14 +16,14 @@ const ProjectsSection = () => {
     {
       title: "LMS System",
       description: "A comprehensive Learning Management System with features for course creation, student enrollment, progress tracking, and interactive learning materials.",
-      technologies: ["React", "Node.js", "Express", "MongoDB", "Redux"],
+      technologies: ["Python", "Flask", "Redis", "React", "MongoDB", "JavaScript"],
       githubLink: "https://github.com/ManishBhartinn07/LMS-System",
       image: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b"
     },
     {
       title: "Tax Calculation Website",
       description: "An intuitive tax calculation platform that helps users estimate their tax liability based on income, deductions, and applicable tax laws.",
-      technologies: ["HTML", "CSS", "JavaScript", "Bootstrap", "Firebase"],
+      technologies: ["Flask", "Python", "HTML", "CSS", "JavaScript", "Jinja2"],
       githubLink: "https://github.com/ManishBhartinn07/Tax-Calculation-website",
       image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6"
     },
