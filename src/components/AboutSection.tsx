@@ -31,13 +31,13 @@ const AboutSection = () => {
             <h2 className="section-title">About Me</h2>
             <div className="space-y-4 text-muted-foreground">
               <p>
-                I'm Manish Bharti, a prefinal year B.Tech student at LPU University specializing in Computer Science & Engineering. I'm passionate about Python development, with expertise in data processing and building scalable web applications.
+                I'm Manish Bharti, a prefinal year B.Tech student at LPU University specializing in Computer Science & Engineering. I'm passionate about <strong>Python development</strong>, with expertise in <strong>data processing</strong> and building <strong>scalable web applications</strong>.
               </p>
               <p>
-                Throughout my academic journey, I've developed strong skills in Python programming, data structures, and web development frameworks like Flask. I've applied these skills in various projects and during my internship at Placify Technology, where I contributed to real-world applications.
+                Throughout my academic journey, I've developed strong skills in <strong>Python programming</strong>, <strong>data structures</strong>, and web development frameworks like <strong>Flask</strong>. I've applied these skills in various projects and during my internship at Placify Technology, where I contributed to real-world applications.
               </p>
               <p>
-                My goal is to leverage my Python development skills and competitive programming experience to create efficient, innovative solutions that make a positive impact. I'm constantly learning and expanding my expertise in tools like Power BI, MySQL, and other technologies.
+                My goal is to leverage my <strong>Python development</strong> skills and <strong>competitive programming</strong> experience to create efficient, innovative solutions that make a positive impact. I'm constantly learning and expanding my expertise in tools like <strong>Power BI</strong>, <strong>MySQL</strong>, and other technologies.
               </p>
             </div>
             <div className="mt-6">
