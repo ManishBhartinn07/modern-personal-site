@@ -16,7 +16,7 @@ const ExperienceSection = () => {
       company: "Placify Technology",
       location: "Remote",
       duration: "August 2024 - October 2024",
-      image: "C:\Users\HP\Downloads\Screenshot 2025-04-29 113922.png",
+      image: "public/lovable-uploads/image.png",
       description: [
         "Developed Python-based solutions for data processing, automation, and web development",
         "Worked with frameworks like Flask and Django, and integrated APIs",
